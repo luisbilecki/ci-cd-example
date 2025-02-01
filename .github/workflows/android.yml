@@ -38,7 +38,7 @@ jobs:
           name: app
           path: ./
       - name: Distribute to App Center
-        uses: wzieba/AppCenter-Github-Action@v1.2.1
+        uses: wzieba/AppCenter-Github-Action@v1.3.4
         with:
           appName: luis.bilecki-gmail.com/CICDExample
           token: ${{secrets.APP_CENTER_TOKEN}}
